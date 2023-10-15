@@ -1,0 +1,31 @@
+{
+  "name": "grann-project",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://kuhai-anna.github.io/grann",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /grann/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kuhai-anna.github.io/grann.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://kuhai-anna.github.io/grann/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.6.0",
+    "@parcel/transformer-sass": "^2.6.0",
+    "@parcel/transformer-webmanifest": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
